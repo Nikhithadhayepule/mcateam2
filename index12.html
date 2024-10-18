@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Course Assignment</title>
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+    <div class="container">
+        <div class="assignment-form">
+            <label for="teacher">Select Teacher:</label>
+            <select id="teacher">
+                <!-- Teachers will be populated here dynamically -->
+                <option value="" disabled selected>Select Teacher</option>
+                <option value="python">Mr V.V. Nagendra Kumar</option>
+                <option value="java">Dr O.Sampath Kumar</option>
+                <option value="c">Dr Rajesh</option>
+                <option value="data-structures">Mr. Sunil</option>
+            </select>
+
+            <label for="course">Select Course:</label>
+            <select id="course">
+                <!-- Courses will be populated here dynamically -->
+                <option value="" disabled selected>Select Course</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="c">C Programming</option>
+                <option value="data-structures">Data Structures</option>
+            </select>
+
+            <button id="assign-button">Assign</button>
+        </div>
+
+        <div id="result-message"></div>
+    </div>
+
+    <script src="script12.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.assignment-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.assignment-form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#assign-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#assign-button:hover {
+    background-color: #0056b3;
+}
+
+#result-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
